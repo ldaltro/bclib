@@ -1,7 +1,7 @@
 bclib
 =====
 
-Biblioteca python para conversão entre dolar real.A biblioteca ultiliza a taxa de venda de dolares atualizada diariamente pelo Banco central.
+Biblioteca python para conversão entre dolar real.A biblioteca ultiliza a taxa de venda de dolares atualizada diariamente pelo Banco Central.
 ```python
 import bclib
 
@@ -12,12 +12,14 @@ print "R$",real,"=","$","%.2f" % dolar
 Atenção!!!
 =====
 Este script só vai rodar se a lib Beautiful Soup estiver instalada no seu computador
-Para instalar a Beautiful Soup use:
+Para instalar a Beautiful Soup no Debian use:
 
 ```
 sudo apt-get install python-bs4
 
 ```
+Mais informações sobre a instalação podem ser vistas em:
+http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
 
 Copyright
 =====
